@@ -21,12 +21,16 @@ export const presencesEventResource = '/PresencasEvento';
 /**
  * Rota para o recurso Presenças Evento
  */
-export const commentaryEventResource = '/ComentariosEvento';
+export const commentaryEventResource = '/ComentariosEvento/ComentarioIA';
 
 /**
  * Rota para o recurso Próximos Eventos
  */
 export const nextEventResource = '/Evento/ListarProximos';
+/**
+ * Rota para o recurso Tipos de Eventos
+ */
+export const pastEventResource = '/Evento/ListarAnteriores';
 /**
  * Rota para o recurso Tipos de Eventos
  */
